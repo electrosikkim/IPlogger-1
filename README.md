@@ -31,7 +31,7 @@ If you disconnect and haven't "rolled" yet, your IP will remain in the database 
 # Setup
 It's ready to use. 
 
-If you would like to store IPS in the `ips.txt ` file, uncomment
+If you would like to store IPS in the `ips.txt` file, uncomment
 ```javascript
 fs.appendFileSync('ips.txt', ip + "\n");
 ```
