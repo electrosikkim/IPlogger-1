@@ -11,7 +11,7 @@ If you return to the page, it'll replace the html with "Your IP Has The Disabled
 
 #### Countdown 
 
-If you do not click the button in 30 seconds, your IP will be automatically "Disabled"
+If you do not click the button in 30 seconds, your IP will be automatically marked as Disabled
 
 
 #### 1/2 Chance Of Success 
@@ -20,7 +20,7 @@ If the odds go in your favor, your IP will be removed from the database. If they
 
 #### Disconnection Punishment 
 
-If you disconnected and haven't "rolled" yet, your IP will remain in the database and be marked as "Disabled"
+If you disconnected and haven't "rolled" yet, your IP will remain in the database and be marked as Disabled
 
 # Setup
 It's ready to use. If you would like to store ips in the ips.txt file, uncomment
