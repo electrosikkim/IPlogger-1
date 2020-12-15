@@ -4,7 +4,6 @@ Functioning IP Logger. Requires Repl.it db.
 Includes: 
 
 IP "Disabled - If you return to the page, it'll replace the html with "Your IP Has The Disabled Status"
-![Disabled IP](https://storage.googleapis.com/replit/images/1607991848597_698fcab038dbd46a155b5a68e1aa74d3.png)
 
 Countdown - If you do not click the button in 30 seconds, your IP will be automatically "Disabled"
 
