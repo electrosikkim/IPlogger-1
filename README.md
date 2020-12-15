@@ -2,6 +2,9 @@
 Functioning IP Logger. Requires Repl.it db. 
 
 # Features 
+#### IP Logging
+
+Append it to a file, send it to a different server, whatever you want.
 
 #### IP "Disabled"
 
@@ -18,6 +21,8 @@ If you do not click the button in 30 seconds, your IP will be automatically mark
 
 If the odds go in your favor, your IP will be removed from the database. If they do not, you ip will remain the the database and be marked as "Disabled".
 
+You can change this behavior by modifying the `chance` function. 
+
 #### Disconnection Punishment 
 
 If you disconnected and haven't "rolled" yet, your IP will remain in the database and be marked as Disabled.
@@ -28,6 +33,9 @@ It's ready to use. If you would like to store ips in the ips.txt file, uncomment
 fs.appendFileSync('ips.txt', ip + "\n");
 ```
 on line 25 in index.js.
+
+If you would like the timer to be longer, change the `TIME` variable.
+
 # Stuff To Note:
 I don't care how you use this.
 
