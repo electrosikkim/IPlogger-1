@@ -1,5 +1,3 @@
-// skiddie looking project just for fun :), just a joke with friends obviously i'm not abusing it. 
-// update: css looks so great :D
 const express = require('express');
 const app = express();
 const path = require('path');
