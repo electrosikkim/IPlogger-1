@@ -1,4 +1,4 @@
-# IPlogger
+# IP Logger
 Functioning IP Logger. Requires Repl.it db. 
 # Setup
 It's ready to use. If you would like to store ips in the ips.txt file, uncomment
@@ -13,3 +13,5 @@ I don't care how you use this.
 Contact Me at paradoxdotexe@protonmail.com for any concerns
 
 This is part of an upcoming project that functions similarly but does not log ips.
+
+This is partly satire.
