@@ -6,7 +6,7 @@ Includes:
 #### IP "Disabled
 
 If you return to the page, it'll replace the html with "Your IP Has The Disabled Status"
-<img src="https://storage.googleapis.com/replit/images/1607992167546_5c04121255d174f0bfead5483cc627b3.png" height=50px>
+<img src="https://storage.googleapis.com/replit/images/1607992167546_5c04121255d174f0bfead5483cc627b3.png" height=200px>
 
 #### Countdown 
 
