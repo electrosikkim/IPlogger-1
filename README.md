@@ -39,4 +39,4 @@ This is partly satire.
 
 If you would like to test this, go to: [Here](https://IPlogger.pepelaugh.repl.co)
 
-If you do go there, note that your IP will be stored in a database, but it will not be publicly available. Feel free to use a VPN.
+If you do go there, note that your IP will be stored in a database, but it will not be publicly available or abused. Feel free to use a VPN, and if you don't, rest assured that I really don't care about your IP and the database is cleared regularly.
