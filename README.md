@@ -36,6 +36,8 @@ on line 25 in index.js.
 
 If you would like the timer to be longer, change the `TIME` variable.
 
+Timestamps are in EST format. 
+
 # Stuff To Note:
 I don't care how you use this.
 
