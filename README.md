@@ -3,7 +3,7 @@ Functioning IP Logger. Requires Repl.it db.
 
 # Features 
 
-#### IP "Disabled
+#### IP "Disabled"
 
 If you return to the page, it'll replace the html with "Your IP Has The Disabled Status"
 
