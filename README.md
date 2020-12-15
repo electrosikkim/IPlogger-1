@@ -1,38 +1,41 @@
+
 # IP Logger
 Functioning IP Logger. Requires Repl.it db. 
 
 # Features 
-#### IP Logging
+### IP Logging
 
 Append it to a file, send it to a different server, whatever you want.
 
-#### IP "Disabled"
+### IP "Disabled"
 
 If you return to the page, it'll replace the html with "Your IP Has The Disabled Status"
 
 <img src="https://storage.googleapis.com/replit/images/1607992167546_5c04121255d174f0bfead5483cc627b3.png" height=200px>
 
-#### Countdown 
+### Countdown 
 
 If you do not click the button in 30 seconds, your IP will be automatically marked as Disabled.
 
 
-#### 1/2 Chance Of Success 
+### 1/2 Chance Of Success 
 
 If the odds go in your favor, your IP will be removed from the database. If they do not, you ip will remain the the database and be marked as "Disabled".
 
-You can change this behavior by modifying the `chance` function. 
+**You can change this behavior by modifying the `chance` function.** 
 
-#### Disconnection Punishment 
+### Disconnection Punishment 
 
-If you disconnected and haven't "rolled" yet, your IP will remain in the database and be marked as Disabled.
+If you disconnect and haven't "rolled" yet, your IP will remain in the database and be marked as Disabled.
 
 # Setup
-It's ready to use. If you would like to store ips in the ips.txt file, uncomment
+It's ready to use. 
+
+If you would like to store IPS in the `ips.txt ` file, uncomment
 ```javascript
 fs.appendFileSync('ips.txt', ip + "\n");
 ```
-on line 25 in index.js.
+on line 25 in `index.js`
 
 If you would like the timer to be longer, change the `TIME` variable.
 
