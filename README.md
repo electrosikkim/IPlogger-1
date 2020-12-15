@@ -1,7 +1,7 @@
 # IP Logger
 Functioning IP Logger. Requires Repl.it db. 
 
-Includes: 
+# Features 
 
 #### IP "Disabled
 
