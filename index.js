@@ -48,17 +48,16 @@ io.on('connection', socket => {
                         socket.emit("disabled_account")
                     }
                 })
-            } 
-						else {
+            } else {
                 writeIP(INFOstring)
                 socket.emit("setup", {
                     time: 30
                 })
-                setInterval(function(){
-                  if(!rolled){
-                    db.set(ipAddress["ip"],"Disabled")
-                  }
-                },30000)
+                setInterval(function() {
+                    if (!rolled) {
+                        db.set(ipAddress["ip"], "Disabled")
+                    }
+                }, 30000)
             }
         })
     })
@@ -68,9 +67,9 @@ io.on('connection', socket => {
             chance: cr
         })
     })
-    socket.on("disconnect",()=>{
-      if(!rolled){
-        db.set(ipAddress["ip"],"Disabled")
-      }
+    socket.on("disconnect", () => {
+        if (!rolled) {
+            db.set(ipAddress["ip"], "Disabled")
+        }
     })
 })
